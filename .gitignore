@@ -1,0 +1,14 @@
+.godot/
+.import/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+__pycache__/
+*.pyc
+.studio/
+builds/
+reports/raw/
+artifacts/local/

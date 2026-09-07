@@ -1,0 +1,38 @@
+schema_version: 1
+status: demo_contract_with_future_boundaries
+runtime_format: JSON
+identity:
+  id: stable_string
+  name: display_string
+  age_years: adult_integer
+  portrait_asset: nullable_asset_id
+  world_asset: nullable_asset_id
+professional:
+  profession_id: registered_id
+  title_id: registered_qualification_id
+  appointment_id: optional_organization_role_id
+  skills: mapping_of_registered_id_to_integer_0_100
+  traits: registered_trait_ids
+employment:
+  hire_cost: nonnegative_demo_currency
+  wage_per_service: nonnegative_demo_currency
+knowledge:
+  candidate_claims: separate_claim_records
+  assessments: separate_evidence_records
+  states: [uninvestigated, insufficient_evidence, estimated, suspected, verified, privately_withheld, event_only]
+  public_profile_rule: explicit_whitelist_projection_never_raw_employee_serialization
+runtime_future_boundaries:
+  xp_level: distinct_from_title
+  happiness_fatigue: short_term_state
+  loyalty: long_term_organizational_attachment
+  reputation: professional_recognition
+  career_goals: employee_owned
+  relationships: sparse_directional_edges
+  household: optional_id
+  age_outfit: independent_presentation_axes
+  event_history: immutable_resolved_records
+notes:
+  - This document is a conceptual contract, not a JSON Schema validator.
+  - EMP-001 implements definitions/load/validation/public projection only.
+  - Future sections do not authorize empty full subsystems.
+  - Real wages and financial formulas are not implied by demo units.

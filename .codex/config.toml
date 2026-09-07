@@ -1,0 +1,4 @@
+# Model-neutral: inherit the user's available model and permission mode.
+# Validate with the installed client; do not downgrade safety to satisfy this file.
+[agents]
+max_concurrent_threads_per_session = 2

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "profiles": [
+    {"employee_id":"haru","observations":[{"field":"skills.service","state":"verified","value":38,"source":"trial_sample","at_tick":0},{"field":"skills.cooking","state":"insufficient_evidence","source":"no_sample","at_tick":0}],"claims":[]},
+    {"employee_id":"ren","observations":[{"field":"skills.cooking","state":"estimated","range":[65,85],"source":"manager_estimate","at_tick":0},{"field":"traits.gifted_palate","state":"suspected","source":"interview","at_tick":0}],"claims":[]},
+    {"employee_id":"emi","observations":[{"field":"skills.service","state":"verified","value":64,"source":"work_record","at_tick":0},{"field":"traits.patient","state":"verified","value":true,"source":"work_record","at_tick":0}],"claims":[]},
+    {"employee_id":"daichi","observations":[{"field":"skills.cooking","state":"estimated","range":[55,80],"source":"sample_test","at_tick":0}],"claims":[{"field":"title_id","claimed_value":"sous_chef","verification":"unverified","source":"resume"}]},
+    {"employee_id":"yui","observations":[{"field":"skills.service","state":"verified","value":52,"source":"work_record","at_tick":0},{"field":"skills.management","state":"insufficient_evidence","source":"no_sample","at_tick":0}],"claims":[]}
+  ]
+}

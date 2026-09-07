@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "mode": "autonomous_bounded",
+  "owner_authorized": true,
+  "scope": "restaurant_vertical_slice",
+  "max_tasks_per_run": 3,
+  "max_concurrent_subagents": 2,
+  "default_concurrent_writers": 1,
+  "max_disjoint_writers": 2,
+  "max_repair_attempts_after_initial": 2,
+  "soft_run_minutes": 45,
+  "continue_after_passing_task": true,
+  "continue_independent_tasks_when_blocked": true,
+  "allow_integrate_to_nondefault_branch": true,
+  "allow_merge_to_main": false,
+  "allow_scope_expansion": false,
+  "allow_paid_api_or_overage": false,
+  "allow_global_install_or_permission_escalation": false,
+  "scheduler_enabled": false,
+  "token_cap": null,
+  "token_cap_note": "No token telemetry assumed. Respect client/user caps; task/time/attempt budgets are fallbacks, not precise spend enforcement."
+}

@@ -1,0 +1,21 @@
+schema_version: 1
+status: proposed_future_contract_except_single_demo_event
+kinds: [operational, personal, professional, world]
+required: [event_id, kind, trigger, participants, choices, resolution_policy]
+trigger:
+  context_predicates: declarative_conditions
+  once_or_cooldown: explicit
+choices:
+  id: stable_string
+  visible_label: localized_text_key
+  eligibility: declarative_conditions
+  effects: typed_targeted_effects
+resolution_policy:
+  employee_agency: true
+  deterministic_test_seed: supported
+  apply_once_id: required
+  outcome_and_time: persisted
+boundaries:
+  - Family events affect involved employee/household directly, not global efficiency.
+  - Player choice changes conditions; major employee choices remain employee-resolved.
+  - Full event scheduler is deferred; do not build it for EMP-001.

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "phase": "bootstrap",
+  "milestone": "restaurant_demo",
+  "active_task": null,
+  "next_task": "EMP-001",
+  "last_verified_commit": null,
+  "checkpoint": "Repository specifications initialized; Godot implementation not started.",
+  "task_stage": "ready_for_environment_check",
+  "pending_reviews": [],
+  "blockers": [],
+  "scheduler_enabled": false,
+  "tested_engine_version": null,
+  "note": "Set bootstrap report and asset validation status before claiming readiness. Do not invent implementation/test completion."
+}

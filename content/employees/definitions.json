@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "employees": [
+    {"id":"haru","name":"Haru","age_years":20,"profession_id":"server","title_id":"trainee_server","hire_cost":25,"wage_per_service":12,"skills":{"service":38,"cooking":12,"management":20},"traits":["diligent"],"private_goal":"become_chef"},
+    {"id":"ren","name":"Ren","age_years":26,"profession_id":"chef","title_id":"junior_chef","hire_cost":90,"wage_per_service":28,"skills":{"service":20,"cooking":78,"management":25},"traits":["gifted_palate","dislikes_overtime"],"private_goal":"signature_recipe"},
+    {"id":"emi","name":"Emi","age_years":46,"profession_id":"server","title_id":"senior_server","hire_cost":45,"wage_per_service":24,"skills":{"service":64,"cooking":20,"management":48},"traits":["patient","regular_memory"],"private_goal":"stable_work"},
+    {"id":"daichi","name":"Daichi","age_years":31,"profession_id":"chef","title_id":"senior_cook","hire_cost":75,"wage_per_service":27,"skills":{"service":28,"cooking":70,"management":36},"traits":["confident"],"private_goal":"recognition"},
+    {"id":"yui","name":"Yui","age_years":24,"profession_id":"server","title_id":"server","hire_cost":35,"wage_per_service":16,"skills":{"service":52,"cooking":18,"management":45},"traits":["observant","calm"],"private_goal":"discover_direction"}
+  ]
+}

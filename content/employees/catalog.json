@@ -1,0 +1,8 @@
+{
+  "schema_version":1,
+  "professions":["server","chef","farmer","manager"],
+  "titles":["trainee_server","server","senior_server","junior_chef","senior_cook","sous_chef","farm_apprentice","farm_worker","manager"],
+  "skills":["service","cooking","management"],
+  "traits":["diligent","gifted_palate","dislikes_overtime","patient","regular_memory","confident","observant","calm"],
+  "knowledge_states":["uninvestigated","insufficient_evidence","estimated","suspected","verified","privately_withheld","event_only"]
+}

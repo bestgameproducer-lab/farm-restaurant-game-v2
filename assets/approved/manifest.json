@@ -24,6 +24,18 @@
       "source_resolution": [1448, 1086],
       "source_sha256": "2d90e72964c4faa4975472f18b23005dbbbdd9eff9b1e934048a3d3867318aa6",
       "source_delivery": "chat_attachment_bundle_not_yet_in_repository"
+    },
+    {
+      "id": "restaurant_furniture_modular_benchmark_v1",
+      "preview_path": "assets/approved/restaurant_furniture_modular_benchmark_v1.jpg",
+      "preview_resolution": [1536, 1024],
+      "preview_sha256": "80c74f2a32228248ed7af0777e8a859032e1dc479da5af0dfd957bbf30fdae8b",
+      "preview_storage": "jpeg_in_repository",
+      "source_filename": "restaurant_furniture_modular_benchmark_v1.jpg",
+      "source_resolution": [1536, 1024],
+      "source_sha256": "80c74f2a32228248ed7af0777e8a859032e1dc479da5af0dfd957bbf30fdae8b",
+      "source_delivery": "uploaded_from_owner-approved ChatGPT benchmark on 2026-09-07",
+      "purpose": "modular furniture visual, footprint, interaction, occlusion and seamless-assembly benchmark"
     }
   ]
 }

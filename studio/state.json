@@ -1,15 +1,29 @@
 {
   "schema_version": 1,
-  "phase": "bootstrap",
+  "mode": "autonomous_bounded",
   "milestone": "restaurant_demo",
-  "active_task": null,
-  "next_task": "EMP-001",
-  "last_verified_commit": null,
-  "checkpoint": "Repository specifications initialized; Godot implementation not started.",
-  "task_stage": "ready_for_environment_check",
+  "active_task": "EMP-001",
+  "phase": "ready_for_local_environment_check",
+  "last_verified_commit": "95a4bfe5eab346cbcee30d8399bd525087572538",
+  "verification_kind": "bootstrap_content_checks_and_asset_transport_hashes_not_godot",
+  "last_verified_checkpoint": "Studio foundation and source fixture validator committed; 16 local Python tests passed",
+  "spec_revision": "bootstrap-v1",
+  "pending_steps": [
+    "Verify local Codex project agents/skills and Python/Godot availability",
+    "Run tools/materialize_assets.py without loading encoded text into agent context",
+    "Run content validation and unit tests in the actual checkout",
+    "Implement EMP-001 on a task branch",
+    "Perform independent review and continue eligible milestone tasks within run budget"
+  ],
   "pending_reviews": [],
   "blockers": [],
-  "scheduler_enabled": false,
-  "tested_engine_version": null,
-  "note": "Set bootstrap report and asset validation status before claiming readiness. Do not invent implementation/test completion."
+  "non_blocking_limitations": [
+    "High-resolution benchmark originals are in the ChatGPT source ZIP, not yet in this repository",
+    "No Godot implementation, runtime visual review or playable build has passed yet",
+    "No scheduler or mobile notification integration has been activated"
+  ],
+  "art_preview_status": "restaurant_jpeg_and_verified_encoded_character_preview_present",
+  "owner_gate": "final_restaurant_demo_playtest",
+  "retry_count": 0,
+  "next_safe_action": "Run local preflight and begin EMP-001; no need to recreate the studio"
 }

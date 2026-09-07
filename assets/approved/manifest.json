@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "approval": "owner_approved_demo_visual_direction",
+  "production_ready": false,
+  "assets": [
+    {
+      "id": "restaurant_demo_benchmark_v1",
+      "preview_path": "assets/approved/restaurant_reference_preview.jpg",
+      "preview_resolution": [320, 180],
+      "preview_sha256": "2bcd80cabc43982fe5e01a087204e4fe4e9910815a16e90383b7fdde87dde17a",
+      "preview_storage": "jpeg_in_repository",
+      "source_filename": "restaurant_demo_benchmark_v1.png",
+      "source_resolution": [1672, 941],
+      "source_sha256": "ce7e32cf95c35dd9a87433440497b600b7240f10ac4ac71d4fdd0378a4454690",
+      "source_delivery": "chat_attachment_bundle_not_yet_in_repository"
+    },
+    {
+      "id": "character_demo_benchmark_v1",
+      "preview_path": "assets/approved/character_reference_preview.jpg",
+      "preview_resolution": [320, 240],
+      "preview_sha256": "81b44adda8892d8947bb2581df0e27c25bda9d6bf3d797e6e4df805a22e70516",
+      "preview_storage": "base64_fragments_decode_with_tools/materialize_assets.py",
+      "source_filename": "character_demo_benchmark_v1.png",
+      "source_resolution": [1448, 1086],
+      "source_sha256": "2d90e72964c4faa4975472f18b23005dbbbdd9eff9b1e934048a3d3867318aa6",
+      "source_delivery": "chat_attachment_bundle_not_yet_in_repository"
+    }
+  ]
+}
